@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抖音直播热榜</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    
+    <!-- Tailwind配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF2442', // 抖音红色
+                        secondary: '#F2F2F2',
+                        dark: '#1A1A1A',
+                        light: '#FFFFFF',
+                        online: '#00C853',
+                        offline: '#9E9E9E',
+                    },
+                    fontFamily: {
+                        sans: ['PingFang SC', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 4px 20px rgba(0, 0, 0, 0.08)',
+                        'hover': '0 8px 30px rgba(0, 0, 0, 0.12)',
+                    },
+                },
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .rank-badge-1 {
+                @apply bg-gradient-to-r from-yellow-400 to-yellow-600 text-white;
+            }
+            .rank-badge-2 {
+                @apply bg-gradient-to-r from-gray-400 to-gray-600 text-white;
+            }
+            .rank-badge-3 {
+                @apply bg-gradient-to-r from-orange-600 to-orange-800 text-white;
+            }
+            .rank-badge-normal {
+                @apply bg-gray-200 text-gray-700;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- 页面头部 -->
+    <header class="bg-primary text-white shadow-md sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <i class="fa fa-fire text-2xl"></i>
+                <h1 class="text-2xl font-bold">抖音直播热榜</h1>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <span id="update-time" class="text-sm opacity-80"></span>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                    <i class="fa fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- 移动端菜单 -->
+        <div id="mobile-menu" class="hidden md:hidden bg-primary/95 backdrop-blur-sm">
+            <div class="container mx-auto px-4 py-2 space-y-3">
+                <div class="py-2 px-3 text-sm opacity-80">
+                    <i class="fa fa-clock-o mr-2"></i> <span id="mobile-update-time"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="container mx-auto px-4 py-8">
+
+        <!-- 榜单列表 -->
+        <div id="rank-list" class="grid grid-cols-1 gap-4 mb-8">
+            <!-- 加载状态 -->
+            <div id="loading-state" class="py-16 flex flex-col items-center justify-center bg-white rounded-xl shadow-card">
+                <div class="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full animate-spin mb-4"></div>
+                <p class="text-gray-500">正在加载榜单数据...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-lg font-bold mb-2">抖音直播热榜</h3>
+                    <p class="text-gray-400 text-sm">实时更新抖音热门直播间数据</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fa fa-weibo text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 抖音直播热榜. 仅供学习参考，数据来源于demo.json</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 从API或本地文件加载数据
+        async function loadData() {
+            try {
+                // 优先尝试通过我们的代理服务器获取合并的实时数据（解决跨域问题）
+                try {
+                    const proxyUrl = '/api/douyin';
+                    console.log('尝试通过代理服务器获取合并的实时数据:', proxyUrl);
+                    
+                    // 从代理服务器请求数据
+                    const response = await fetch(proxyUrl, { 
+                        method: 'GET',
+                        credentials: 'include' // 包含Cookie
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`代理服务器请求失败: ${response.status}`);
+                    }
+                    
+                    const data = await response.json();
+                    
+                    if (data && data.data && data.data.ranks) {
+                        console.log('代理服务器数据获取成功');
+                        console.log('数据结构检查 - ranks[0]:', data.data.ranks[0]);
+                        console.log('数据结构检查 - contributor_text:', data.data.ranks[0]?.contributor_text);
+                        console.log('数据结构检查 - fansclub_name:', data.data.ranks[0]?.fansclub_name);
+                        console.log('热门榜数据:', data.data.hotList);
+                        return data.data.ranks;
+                    } else {
+                        throw new Error('代理服务器返回数据格式不正确');
+                    }
+                } catch (proxyError) {
+                    console.warn('代理服务器调用失败，回退到本地数据:', proxyError);
+                    
+                    // 回退到从demo.json加载数据
+                    const response = await fetch('demo.json');
+                    const data = await response.json();
+                    return data.data.ranks;
+                }
+            } catch (error) {
+                console.error('所有数据加载方式均失败:', error);
+                // 提供模拟数据，以防真实数据加载失败
+                return generateMockData();
+            }
+        }
+
+        // 生成模拟数据（备用）
+        function generateMockData() {
+            const mockData = [];
+            for (let i = 0; i < 20; i++) {
+                mockData.push({
+                    user: {
+                        nickname: `模拟主播${i+1}`,
+                        avatar_thumb: {
+                            url_list: [`https://picsum.photos/seed/${i+1}/100/100`]
+                        },
+                        display_id: `${10000000 + i}`
+                    },
+                    score: Math.floor(Math.random() * 1000000) + 100000,
+                    rank: i + 1,
+                    room: {
+                        id: Math.random() > 0.3 ? 123456789 : 0,
+                        user_count: Math.floor(Math.random() * 10000),
+                        title: `模拟直播标题${i+1}`
+                    }
+                });
+            }
+            return mockData;
+        }
+
+        // 格式化数字
+        function formatNumber(num) {
+            if (num >= 10000) {
+                return (num / 10000).toFixed(1) + 'w';
+            }
+            return num.toString();
+        }
+
+        // 渲染榜单
+        function renderRankList(data) {
+            const rankListElement = document.getElementById('rank-list');
+            
+            // 隐藏加载状态
+            document.getElementById('loading-state').classList.add('hidden');
+            
+            // 如果数据为空，显示空状态
+            if (!data || data.length === 0) {
+                rankListElement.innerHTML = `
+                    <div class="py-16 flex flex-col items-center justify-center bg-white rounded-xl shadow-card">
+                        <i class="fa fa-frown-o text-5xl text-gray-300 mb-4"></i>
+                        <p class="text-gray-500">暂无数据</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // 清空列表
+            rankListElement.innerHTML = '';
+
+            // 渲染每个主播卡片
+                        data.forEach((item) => {
+                            const isOnline = item.room.id !== 0;
+                            const rankClass = item.rank <= 3 ? `rank-badge-${item.rank}` : 'rank-badge-normal';
+                            
+                            // 调试信息 - 适配不同数据结构
+                            const userId = item.user?.id || item.uid || '未知';
+                            const userName = item.user?.nickname || item.nickname || '未知主播';
+                            const avatarUrl = item.user?.avatar_thumb?.url_list?.[0] || item.avatar || 'https://via.placeholder.com/80';
+                            const displayId = item.user?.display_id || item.uid || '';
+                            const roomId = item.room?.id || item.room_id || 0;
+                            const roomTitle = item.room?.title || item.title || '暂无直播标题';
+                            const userCount = item.room?.user_count || item.viewer_count || 0;
+                            
+                            console.log(`渲染主播ID: ${userId}, 名称: ${userName}`);
+                            console.log(`字段状态 - contributor_text: "${item.contributor_text}", fansclub_name: "${item.fansclub_name}"`);
+                            
+                            // 使用之前计算的在线状态
+                            const card = document.createElement('div');
+                            card.className = 'bg-white rounded-xl shadow-card hover:shadow-hover transition-all overflow-hidden group';
+                            card.innerHTML = `
+                                <div class="p-4 flex items-center">
+                                    <!-- 排名 -->
+                                    <div class="w-10 h-10 rounded-full ${rankClass} flex items-center justify-center font-bold mr-4 shrink-0">
+                                        ${item.rank}
+                                    </div>
+                                    
+                                    <!-- 头像 -->
+                                    <div class="relative mr-4 shrink-0">
+                                        <img src="${avatarUrl}" 
+                                             alt="${userName}" 
+                                             class="w-16 h-16 rounded-full object-cover border-2 border-white shadow transition-transform group-hover:scale-105">
+                                        <!-- 直播状态指示器 -->
+                                        <span class="absolute bottom-0 right-0 w-5 h-5 rounded-full ${isOnline ? 'bg-online' : 'bg-offline'} border-2 border-white"></span>
+                                    </div>
+                                    
+                                    <!-- 主播信息 -->
+                                    <div class="flex-1 min-w-0">
+                                        <div class="flex items-center mb-1">
+                                            <h3 class="font-bold text-gray-800 truncate">${userName}</h3>
+                                            ${isOnline ? '<span class="ml-2 text-xs px-2 py-0.5 bg-online/10 text-online rounded-full">直播中</span>' : ''}
+                                        </div>
+                                        <p class="text-sm text-gray-500 mb-2 truncate">${roomTitle}</p>
+                                        <div class="flex items-center space-x-4">
+                                            <div class="flex items-center text-gray-600">
+                                                <i class="fa fa-fire text-primary mr-1"></i>
+                                                <span class="font-semibold">${formatNumber(item.score)}</span>
+                                            </div>
+                                            ${isOnline ? `
+                                                <div class="flex items-center text-gray-600">
+                                                    <i class="fa fa-users text-blue-500 mr-1"></i>
+                                                    <span>${formatNumber(userCount)}</span>
+                                                </div>
+                                            ` : `
+                                                <div class="flex items-center text-gray-400">
+                                                    <i class="fa fa-circle-o mr-1"></i>
+                                                    <span>未开播</span>
+                                                </div>
+                                            `}
+                                            <!-- 助力人数 -->
+                                            <div class="flex items-center text-red-500 font-bold" style="min-width: 80px;">
+                                                <i class="fa fa-heart text-red-500 mr-1"></i>
+                                                <span>助力: ${item.contributor_text || '0人'}</span>
+                                            </div>
+                                            <!-- 粉丝团名称 -->
+                                            <div class="flex items-center text-purple-500 font-bold" style="min-width: 100px;">
+                                                <i class="fa fa-users text-purple-500 mr-1"></i>
+                                                <span>${item.fansclub_name || '暂无'}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- 操作按钮 -->
+                                    <div class="ml-4 flex items-center space-x-2">
+                                        ${isOnline ? `
+                                            <a href="https://live.douyin.com/${displayId}" target="_blank" 
+                                               class="px-4 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors text-sm flex items-center">
+                                                <i class="fa fa-play-circle mr-1"></i>
+                                                进入直播间
+                                            </a>
+                                        ` : `
+                                            <button class="px-4 py-2 bg-gray-200 text-gray-600 rounded-full cursor-not-allowed text-sm flex items-center">
+                                                <i class="fa fa-lock mr-1"></i>
+                                                未开播
+                                            </button>
+                                        `}
+                                    </div>
+                                </div>
+                            `;
+                            
+                            rankListElement.appendChild(card);
+                        });
+        }
+
+
+
+        // 初始化应用
+        async function init() {
+            // 加载数据
+            const data = await loadData();
+            
+            // 保存原始数据
+            window.originalRankData = [...data];
+            
+            // 渲染榜单
+            renderRankList(data);
+            
+
+            
+            // 更新时间戳
+            const now = new Date();
+            const updateTimeStr = now.toLocaleTimeString('zh-CN');
+            document.getElementById('update-time').textContent = `更新于 ${updateTimeStr}`;
+            document.getElementById('mobile-update-time').textContent = `更新于 ${updateTimeStr}`;
+            
+
+        }
+
+        // 绑定事件
+        function bindEvents() {
+            // 移动端菜单切换
+            document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.toggle('hidden');
+            });
+        }
+
+        // 初始化后直接绑定事件
+        bindEvents();
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

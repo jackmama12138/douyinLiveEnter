@@ -1,0 +1,1612 @@
+{
+    "data": {
+        "ranks": [
+            {
+                "score": 1834560,
+                "user": {
+                    "display_id": "38805451652",
+                    "nickname": "刘旦旦(9月21日上午11:22生日庆)",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_73ebeb4ac188b98de4187a9144dc4ff6.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 143762,
+                    "id": 7552377792084676000
+                },
+                "rank": 1,
+                "live_url": "https://live.douyin.com/38805451652"
+            },
+            {
+                "score": 1100998,
+                "user": {
+                    "display_id": "21730201203",
+                    "nickname": "王小帅⁶²⁰",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_ocAaAeTcGCBcLAfDP5IbWrIoeI0QViyAzf2p6A.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 4850,
+                    "id": 7552369908252708000
+                },
+                "rank": 2,
+                "live_url": "https://live.douyin.com/21730201203"
+            },
+            {
+                "score": 978581,
+                "user": {
+                    "display_id": "8237399",
+                    "nickname": "王莉ᴹᴼᴸᴵ",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o8HPQkQfEAAgPPsUAIYbeAnAen3GfL1NvYDe0H.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 3201,
+                    "id": 7552368067718254000
+                },
+                "rank": 3,
+                "live_url": "https://live.douyin.com/8237399"
+            },
+            {
+                "score": 857043,
+                "user": {
+                    "display_id": "41378237171",
+                    "nickname": "一铭¹⁵²⁸一五班上午10点直播",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_dfd81db286f59055124ad3bc49c58c3d.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 11398,
+                    "id": 7552356368221490000
+                },
+                "rank": 4,
+                "live_url": "https://live.douyin.com/41378237171"
+            },
+            {
+                "score": 769585,
+                "user": {
+                    "display_id": "BeiXG666",
+                    "nickname": "𝑇. 北小狗✨",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_7f411f1a1660b04edd6c158595340f02.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 708,
+                    "id": 7552368904736083000
+                },
+                "rank": 5,
+                "live_url": "https://live.douyin.com/BeiXG666"
+            },
+            {
+                "score": 579783,
+                "user": {
+                    "display_id": "fang315999",
+                    "nickname": "晓芳🔆",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_e219074ce37151ed2f7fca7c9e3dcc1d.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1041,
+                    "id": 7552366677218676000
+                },
+                "rank": 6,
+                "live_url": "https://live.douyin.com/fang315999"
+            },
+            {
+                "score": 481795,
+                "user": {
+                    "display_id": "37897515821",
+                    "nickname": "小月❤️",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_3c4221d1550b1f012c4a510e5d0b17aa.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1336,
+                    "id": 7552340874991128000
+                },
+                "rank": 7,
+                "live_url": "https://live.douyin.com/37897515821"
+            },
+            {
+                "score": 298612,
+                "user": {
+                    "display_id": "MDD8880721",
+                    "nickname": "米米1v4",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_828db58a5efd5b1bc72ad18b8538d1f3.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 2762,
+                    "id": 7552373046256406000
+                },
+                "rank": 8,
+                "live_url": "https://live.douyin.com/MDD8880721"
+            },
+            {
+                "score": 280396,
+                "user": {
+                    "display_id": "yaoyao415..",
+                    "nickname": "瑶瑶415🌞",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_ac90ea3d2c250de0cbc64d7fed23ca11.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1429,
+                    "id": 7552358665848638000
+                },
+                "rank": 9,
+                "live_url": "https://live.douyin.com/yaoyao415.."
+            },
+            {
+                "score": 259530,
+                "user": {
+                    "display_id": "44822869329",
+                    "nickname": "小喵🎤",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6c79a7fb4ed5ac6ace8270f60fc295df.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1424,
+                    "id": 7552370483363106000
+                },
+                "rank": 10,
+                "live_url": "https://live.douyin.com/44822869329"
+            },
+            {
+                "score": 227345,
+                "user": {
+                    "display_id": "38041347345",
+                    "nickname": "开心文化传媒⁶²⁸",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_oAsiImCoAgAQRC9mAEssfA9AeEdDXFvrmNKadA.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 429,
+                    "id": 7552356424211254000
+                },
+                "rank": 11,
+                "live_url": "https://live.douyin.com/38041347345"
+            },
+            {
+                "score": 227314,
+                "user": {
+                    "display_id": "RouRou526.",
+                    "nickname": "肉肉⁵²⁶",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_433d200faebd37fd422551d34e6917b3.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 3863,
+                    "id": 7552373267915460000
+                },
+                "rank": 12,
+                "live_url": "https://live.douyin.com/RouRou526."
+            },
+            {
+                "score": 221083,
+                "user": {
+                    "display_id": "BDBR2021",
+                    "nickname": "雪峰善行",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_2d1d726550e7c4a50717c0e50bf9a3dd.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 9959,
+                    "id": 7552372186007211000
+                },
+                "rank": 13,
+                "live_url": "https://live.douyin.com/BDBR2021"
+            },
+            {
+                "score": 220059,
+                "user": {
+                    "display_id": "1280387499",
+                    "nickname": "小兵",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d4ce34ba67a1e7e20f6ba680c3fc9566.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 0,
+                    "id": 0
+                },
+                "rank": 14,
+                "live_url": "https://live.douyin.com/1280387499"
+            },
+            {
+                "score": 212137,
+                "user": {
+                    "display_id": "58038521864",
+                    "nickname": "小虹🎤",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_bb6f83f4677977799e3e72281e931bc2.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 292,
+                    "id": 7552356593339928000
+                },
+                "rank": 15,
+                "live_url": "https://live.douyin.com/58038521864"
+            },
+            {
+                "score": 210158,
+                "user": {
+                    "display_id": "xiajiaoao",
+                    "nickname": "夏骄傲🎙️农村草根（收徒）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_5fe1a11ddae177d797d5528326bc5048.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 5308,
+                    "id": 7552364393938308000
+                },
+                "rank": 16,
+                "live_url": "https://live.douyin.com/xiajiaoao"
+            },
+            {
+                "score": 207736,
+                "user": {
+                    "display_id": "76278735795",
+                    "nickname": "郭小乐",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_e9e4ec4e9597a193435a217c282851dd.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 11797,
+                    "id": 7552356621827689000
+                },
+                "rank": 17,
+                "live_url": "https://live.douyin.com/76278735795"
+            },
+            {
+                "score": 201857,
+                "user": {
+                    "display_id": "ZGxinger777",
+                    "nickname": "允星儿☀️",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6d2a40c9f78055205f68ca5284eb096a.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1388,
+                    "id": 7552374355322342000
+                },
+                "rank": 18,
+                "live_url": "https://live.douyin.com/ZGxinger777"
+            },
+            {
+                "score": 182877,
+                "user": {
+                    "display_id": "JGTweiyihao",
+                    "nickname": "金刚学堂",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_e23a8a22f613670e96c94f0c9cdc30e3.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 4624,
+                    "id": 7552372523996941000
+                },
+                "rank": 19,
+                "live_url": "https://live.douyin.com/JGTweiyihao"
+            },
+            {
+                "score": 179504,
+                "user": {
+                    "display_id": "59975016417",
+                    "nickname": "三石（沧海一舟）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_66876f209d1940a7b7ba1fd70f1a39c6.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1503,
+                    "id": 7552373380842786000
+                },
+                "rank": 20,
+                "live_url": "https://live.douyin.com/59975016417"
+            },
+            {
+                "score": 177206,
+                "user": {
+                    "display_id": "madayan7272",
+                    "nickname": "马大雁🎤优秀（9月21号四周年庆）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_b826d7ebd73fd732d217b8f4fc8876fb.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 24539,
+                    "id": 7552379000677469000
+                },
+                "rank": 21,
+                "live_url": "https://live.douyin.com/madayan7272"
+            },
+            {
+                "score": 169552,
+                "user": {
+                    "display_id": "ZLTS1986",
+                    "nickname": "老头儿",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o4aE9AzPhgIKAGAwlMiCCwiKBMAAbjqlIPrBL.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 0,
+                    "id": 0
+                },
+                "rank": 22,
+                "live_url": "https://live.douyin.com/ZLTS1986"
+            },
+            {
+                "score": 164216,
+                "user": {
+                    "display_id": "Yuxii0717",
+                    "nickname": "夏语曦🎋⁷¹⁷",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_00c1bb25e96355d33b3f334b59e7f2f6.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1137,
+                    "id": 7552373107256790000
+                },
+                "rank": 23,
+                "live_url": "https://live.douyin.com/Yuxii0717"
+            },
+            {
+                "score": 162483,
+                "user": {
+                    "display_id": "dreamF",
+                    "nickname": "阿录",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_81ea8a16dc3844edb76a55bdfd824a05.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1733,
+                    "id": 7552376396347952000
+                },
+                "rank": 24,
+                "live_url": "https://live.douyin.com/dreamF"
+            },
+            {
+                "score": 159724,
+                "user": {
+                    "display_id": "7807032",
+                    "nickname": "老六不爱打架",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_f4ce8f98a7f491e2455a192e12ab2ef9.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1181,
+                    "id": 7552371893634911000
+                },
+                "rank": 25,
+                "live_url": "https://live.douyin.com/7807032"
+            },
+            {
+                "score": 156469,
+                "user": {
+                    "display_id": "45085216269",
+                    "nickname": "1989",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_3dcc1f66988d2cedb6ebede69363a735.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1527,
+                    "id": 7552373089223216000
+                },
+                "rank": 26,
+                "live_url": "https://live.douyin.com/45085216269"
+            },
+            {
+                "score": 153437,
+                "user": {
+                    "display_id": "77555551256",
+                    "nickname": "家纺李小健（实体人）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o0OIQeIcCAAgqD2QAQEw8ABAwFfM8XeeAMqDHD.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 492,
+                    "id": 7552367956568215000
+                },
+                "rank": 27,
+                "live_url": "https://live.douyin.com/77555551256"
+            },
+            {
+                "score": 138769,
+                "user": {
+                    "display_id": "94912564051",
+                    "nickname": "龙雨🎙️",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8180118e1abeb4b4f3be1c246a8414b5.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1711,
+                    "id": 7552372176200977000
+                },
+                "rank": 28,
+                "live_url": "https://live.douyin.com/94912564051"
+            },
+            {
+                "score": 135072,
+                "user": {
+                    "display_id": "laopo007",
+                    "nickname": "冯子柒⁰⁰⁷",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_b1a79a818e5b4a82939e4f287fd28925.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1560,
+                    "id": 7552371827429461000
+                },
+                "rank": 29,
+                "live_url": "https://live.douyin.com/laopo007"
+            },
+            {
+                "score": 134718,
+                "user": {
+                    "display_id": "26177156068",
+                    "nickname": "千年（万牢之主）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_60575e2b6d360794e77d5aec5b383658.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 12925,
+                    "id": 7552373187464400000
+                },
+                "rank": 30,
+                "live_url": "https://live.douyin.com/26177156068"
+            },
+            {
+                "score": 126685,
+                "user": {
+                    "display_id": "dahang8882",
+                    "nickname": "大航⛵(生日庆14号下午2点）",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_cc86f4de604d7cfff827f8b33d7083fc.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 5516,
+                    "id": 7552374345197243000
+                },
+                "rank": 31,
+                "live_url": "https://live.douyin.com/dahang8882"
+            },
+            {
+                "score": 126498,
+                "user": {
+                    "display_id": "Jiaxuan11223",
+                    "nickname": "🎙️佳萱⁹²¹¹✨9月21日周年庆",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_316fae1bc7dc35695b1d61c46e807f09.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1010,
+                    "id": 7552364017076014000
+                },
+                "rank": 32,
+                "live_url": "https://live.douyin.com/Jiaxuan11223"
+            },
+            {
+                "score": 121172,
+                "user": {
+                    "display_id": "T2000.88",
+                    "nickname": "贵州王祖贤（王珊儿）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6a60abd2876eb553bd1bd2261fed9f51.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 9264,
+                    "id": 7552371136563006000
+                },
+                "rank": 33,
+                "live_url": "https://live.douyin.com/T2000.88"
+            },
+            {
+                "score": 112180,
+                "user": {
+                    "display_id": "43536847137",
+                    "nickname": "喵喵姐🐯（米皮姐杂谈）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_okfBPKLXKQGg5tAAjEAAelINN4gj7zlBaAPHeE.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 332,
+                    "id": 7552336203393699000
+                },
+                "rank": 34,
+                "live_url": "https://live.douyin.com/43536847137"
+            },
+            {
+                "score": 111661,
+                "user": {
+                    "display_id": "harryHz",
+                    "nickname": "harry浩哲¹⁰⁰⁰¹",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_4318a0e6733ff3cf4b421c6cad5a52c0.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 607,
+                    "id": 7552371565715869000
+                },
+                "rank": 35,
+                "live_url": "https://live.douyin.com/harryHz"
+            },
+            {
+                "score": 107307,
+                "user": {
+                    "display_id": "koi0625.",
+                    "nickname": "Koi（内向版）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_eab15d388aed5d6c0acb7cb052024b05.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1673,
+                    "id": 7552371896761306000
+                },
+                "rank": 36,
+                "live_url": "https://live.douyin.com/koi0625."
+            },
+            {
+                "score": 105480,
+                "user": {
+                    "display_id": "91718204217",
+                    "nickname": "金铲铲小杨",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_cd6df8315848e40de2545bf4e76ded1f.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 0,
+                    "id": 0
+                },
+                "rank": 37,
+                "live_url": "https://live.douyin.com/91718204217"
+            },
+            {
+                "score": 103946,
+                "user": {
+                    "display_id": "44442379586",
+                    "nickname": "Dou✨",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_46da0ed92df882cc57743bf09fcb90a1.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 431,
+                    "id": 7552365118214999000
+                },
+                "rank": 38,
+                "live_url": "https://live.douyin.com/44442379586"
+            },
+            {
+                "score": 102039,
+                "user": {
+                    "display_id": "73311778102",
+                    "nickname": "麦霸风云",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_352a1042591bbb854b0943203a0fed76.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 782,
+                    "id": 7552364851918687000
+                },
+                "rank": 39,
+                "live_url": "https://live.douyin.com/73311778102"
+            },
+            {
+                "score": 100267,
+                "user": {
+                    "display_id": "ab212414",
+                    "nickname": "阿博 ⁰⁸¹⁸",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_oYbAyfiSZgL9DTAIAMzEAyCCIAkFEdSFoPGfAC.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 384,
+                    "id": 7552371779983543000
+                },
+                "rank": 40,
+                "live_url": "https://live.douyin.com/ab212414"
+            },
+            {
+                "score": 99179,
+                "user": {
+                    "display_id": "72803822985",
+                    "nickname": "初一🎙️伤感情歌",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_b37a5a240123b776f52a82b6a424d51e.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 301,
+                    "id": 7552365426404052000
+                },
+                "rank": 41,
+                "live_url": "https://live.douyin.com/72803822985"
+            },
+            {
+                "score": 96015,
+                "user": {
+                    "display_id": "TxLove901",
+                    "nickname": "田少 • 男团 早上11:00户外直播",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_710ea9b81ecf84422b17b420372413d2.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 6138,
+                    "id": 7552371797583154000
+                },
+                "rank": 42,
+                "live_url": "https://live.douyin.com/TxLove901"
+            },
+            {
+                "score": 93995,
+                "user": {
+                    "display_id": "hklX325",
+                    "nickname": "韩可乐🐰ˣ³²⁵",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d6c08e946e3debda1bde62acc41ea37e.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 318,
+                    "id": 7552356350597172000
+                },
+                "rank": 43,
+                "live_url": "https://live.douyin.com/hklX325"
+            },
+            {
+                "score": 89974,
+                "user": {
+                    "display_id": "96549478255",
+                    "nickname": "娜娜爱唱歌",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d0701f3e7f8da3eca535b31f5c12a366.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 73,
+                    "id": 7552359096952081000
+                },
+                "rank": 44,
+                "live_url": "https://live.douyin.com/96549478255"
+            },
+            {
+                "score": 87136,
+                "user": {
+                    "display_id": "57071160556",
+                    "nickname": "浩轩🌊",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_5cca782f9ebdd354ee302ff12c99268e.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 182,
+                    "id": 7552373084892827000
+                },
+                "rank": 45,
+                "live_url": "https://live.douyin.com/57071160556"
+            },
+            {
+                "score": 86152,
+                "user": {
+                    "display_id": "37835120213",
+                    "nickname": "云璟🐳",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_2847d2f2b1b9d3802ba11af525fba6a3.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 240,
+                    "id": 7552373254014504000
+                },
+                "rank": 46,
+                "live_url": "https://live.douyin.com/37835120213"
+            },
+            {
+                "score": 80774,
+                "user": {
+                    "display_id": "Anna3188",
+                    "nickname": "🐶娜娜老跑调🐶",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_2d7420e65e211f7ea4ba0c777b97db10.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1264,
+                    "id": 7552380343301033000
+                },
+                "rank": 47,
+                "live_url": "https://live.douyin.com/Anna3188"
+            },
+            {
+                "score": 80730,
+                "user": {
+                    "display_id": "93675019205",
+                    "nickname": "小阿金",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_109f26591f27f04f1aa2be63e8f8fe50.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 356,
+                    "id": 7552372262109138000
+                },
+                "rank": 48,
+                "live_url": "https://live.douyin.com/93675019205"
+            },
+            {
+                "score": 79703,
+                "user": {
+                    "display_id": "wu199336min",
+                    "nickname": "A宝🌊",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_2dea8e3beedb1981c77bea4d1a7c0763.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 417,
+                    "id": 7552322474927607000
+                },
+                "rank": 49,
+                "live_url": "https://live.douyin.com/wu199336min"
+            },
+            {
+                "score": 74364,
+                "user": {
+                    "display_id": "AY116117118",
+                    "nickname": "大g一舞倾城⁹ ¹ ⁰",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_68566935454b5c2d40ca03476160515e.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 85,
+                    "id": 7552371954586652000
+                },
+                "rank": 50,
+                "live_url": "https://live.douyin.com/AY116117118"
+            },
+            {
+                "score": 73825,
+                "user": {
+                    "display_id": "zhangyike211",
+                    "nickname": "张亦可🎧",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_b95d6a74f582f55b022a620d0ec3879d.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 936,
+                    "id": 7552355321298456000
+                },
+                "rank": 51,
+                "live_url": "https://live.douyin.com/zhangyike211"
+            },
+            {
+                "score": 72745,
+                "user": {
+                    "display_id": "laiting8814",
+                    "nickname": "婷宝²¹⁸ 🎙️打榜「明晚7点周年庆",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d11348ace266fb81b08ce488d31a23ee.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 278,
+                    "id": 7552374335916936000
+                },
+                "rank": 52,
+                "live_url": "https://live.douyin.com/laiting8814"
+            },
+            {
+                "score": 70586,
+                "user": {
+                    "display_id": "91141071039",
+                    "nickname": "麦麦🎙️",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d911661dc06d4929e154070eb13ca4f4.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 366,
+                    "id": 7552372292152479000
+                },
+                "rank": 53,
+                "live_url": "https://live.douyin.com/91141071039"
+            },
+            {
+                "score": 69099,
+                "user": {
+                    "display_id": "1107sss",
+                    "nickname": "单栗¹¹⁰⁷",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_b8348d988a5ed3b389019d4d1552db68.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 121,
+                    "id": 7552371300612378000
+                },
+                "rank": 54,
+                "live_url": "https://live.douyin.com/1107sss"
+            },
+            {
+                "score": 66341,
+                "user": {
+                    "display_id": "73781230432",
+                    "nickname": "二黄【216】让孝心回家",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_o0EXQADA9IIA7eNfxCEAuUBnAFdiiEZIEwXfjh.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 622,
+                    "id": 7552351242355953000
+                },
+                "rank": 55,
+                "live_url": "https://live.douyin.com/73781230432"
+            },
+            {
+                "score": 65069,
+                "user": {
+                    "display_id": "993474134",
+                    "nickname": "小阿杰🎙上午11点播",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6c15805c0c122f72019613cecadbdfb9.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 576,
+                    "id": 7552372058802359000
+                },
+                "rank": 56,
+                "live_url": "https://live.douyin.com/993474134"
+            },
+            {
+                "score": 64587,
+                "user": {
+                    "display_id": "270848509",
+                    "nickname": "依小知☀️⁹⁰¹⁸",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_ec0595d006b8233fc8490cb2c514cf23.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 170,
+                    "id": 7552373444441034000
+                },
+                "rank": 57,
+                "live_url": "https://live.douyin.com/270848509"
+            },
+            {
+                "score": 63262,
+                "user": {
+                    "display_id": "vjx111678",
+                    "nickname": "静心💋",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_a91533f24578078e7e17a21ae6dcbfd7.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 2224,
+                    "id": 7552356942820265000
+                },
+                "rank": 58,
+                "live_url": "https://live.douyin.com/vjx111678"
+            },
+            {
+                "score": 63039,
+                "user": {
+                    "display_id": "85378706709",
+                    "nickname": "郭子🧊⁰⁸⁰¹",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d689e3de460147a08bd65a75b16906ac.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 568,
+                    "id": 7552347483116932000
+                },
+                "rank": 59,
+                "live_url": "https://live.douyin.com/85378706709"
+            },
+            {
+                "score": 62696,
+                "user": {
+                    "display_id": "Elaine418116",
+                    "nickname": "爆炸·薯条🍟",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8722e553cb0e50de82caf368939147fb.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 110,
+                    "id": 7552371114488516000
+                },
+                "rank": 60,
+                "live_url": "https://live.douyin.com/Elaine418116"
+            },
+            {
+                "score": 60911,
+                "user": {
+                    "display_id": "46471199412",
+                    "nickname": "疯子",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_9063198eb7c2c1d5cd43ebd878ff966e.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 24085,
+                    "id": 7552369697129942000
+                },
+                "rank": 61,
+                "live_url": "https://live.douyin.com/46471199412"
+            },
+            {
+                "score": 60757,
+                "user": {
+                    "display_id": "865423941",
+                    "nickname": "莉姐（上午10点30）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_o8MAAzIaAjPhKEijQwO1MPuCdAi9vB6APdn0L.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 47,
+                    "id": 7552363917076975000
+                },
+                "rank": 62,
+                "live_url": "https://live.douyin.com/865423941"
+            },
+            {
+                "score": 59607,
+                "user": {
+                    "display_id": "S011026S",
+                    "nickname": "小詹bb ⁵²³³🧸",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6273d918c1a2b45e7a05b470412cca64.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 551,
+                    "id": 7552373067268247000
+                },
+                "rank": 63,
+                "live_url": "https://live.douyin.com/S011026S"
+            },
+            {
+                "score": 58705,
+                "user": {
+                    "display_id": "2022wobiying",
+                    "nickname": "杨森🍀 ⁹²³中午11点播",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_2f4279f08cda9c5ed66a7deb4156fa8f.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 3123,
+                    "id": 7552371961993760000
+                },
+                "rank": 64,
+                "live_url": "https://live.douyin.com/2022wobiying"
+            },
+            {
+                "score": 57342,
+                "user": {
+                    "display_id": "susulaoshi1",
+                    "nickname": "苏苏👑🎙️",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_f0b946d12061b7e7bae89a4cbdd91841.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 106,
+                    "id": 7552361732577185000
+                },
+                "rank": 65,
+                "live_url": "https://live.douyin.com/susulaoshi1"
+            },
+            {
+                "score": 56983,
+                "user": {
+                    "display_id": "196343414",
+                    "nickname": "骚男🤡",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_155790c231bcad04636ca8358cb6a75c.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 83279,
+                    "id": 7552371941980524000
+                },
+                "rank": 66,
+                "live_url": "https://live.douyin.com/196343414"
+            },
+            {
+                "score": 56438,
+                "user": {
+                    "display_id": "hainingdahai",
+                    "nickname": "灵魂海歌8🎤",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_oYgAzDiElAAMLMTHAnCjB85TeAwENIb9BA3FOe.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 237,
+                    "id": 7552378224919088000
+                },
+                "rank": 67,
+                "live_url": "https://live.douyin.com/hainingdahai"
+            },
+            {
+                "score": 53619,
+                "user": {
+                    "display_id": "zy1999796",
+                    "nickname": "清悦💕🎤",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_oAeCE9EoEwAIBD9XAEzBfAHAFQRDxFhgaeCqtA.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 404,
+                    "id": 7552374529696255000
+                },
+                "rank": 68,
+                "live_url": "https://live.douyin.com/zy1999796"
+            },
+            {
+                "score": 52591,
+                "user": {
+                    "display_id": "32550945427",
+                    "nickname": "秦二娃",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_c90060e69dae2d1ed03a58899059c635.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 644,
+                    "id": 7552360528111259000
+                },
+                "rank": 69,
+                "live_url": "https://live.douyin.com/32550945427"
+            },
+            {
+                "score": 51437,
+                "user": {
+                    "display_id": "22519136737",
+                    "nickname": "杨六六¹²²⁷🌻",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8daad2dd80ead192bf95aee9bac13f84.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 66,
+                    "id": 7552363694215155000
+                },
+                "rank": 70,
+                "live_url": "https://live.douyin.com/22519136737"
+            },
+            {
+                "score": 49670,
+                "user": {
+                    "display_id": "xiancenuliya",
+                    "nickname": "仙策策策(国服暃）",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_2d1270001c8ed4fcef84b.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1099,
+                    "id": 7552365309726854000
+                },
+                "rank": 71,
+                "live_url": "https://live.douyin.com/xiancenuliya"
+            },
+            {
+                "score": 48201,
+                "user": {
+                    "display_id": "hexuebi888",
+                    "nickname": "🍀雪碧🍀（上午11点开播）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_0580f834ac86f36cb9a5102fc81fb2bc.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1698,
+                    "id": 7552371731818712000
+                },
+                "rank": 72,
+                "live_url": "https://live.douyin.com/hexuebi888"
+            },
+            {
+                "score": 47738,
+                "user": {
+                    "display_id": "58057719155",
+                    "nickname": "应导导🧶",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_48b2384e29174895b7d4fc2b20cfbd1f.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 487,
+                    "id": 7552369931830529000
+                },
+                "rank": 73,
+                "live_url": "https://live.douyin.com/58057719155"
+            },
+            {
+                "score": 47480,
+                "user": {
+                    "display_id": "49877925409",
+                    "nickname": "顾小佳🎤",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_947ffa87ad6dd098478c752568fb244f.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 278,
+                    "id": 7552369506706918000
+                },
+                "rank": 74,
+                "live_url": "https://live.douyin.com/49877925409"
+            },
+            {
+                "score": 47405,
+                "user": {
+                    "display_id": "05079af",
+                    "nickname": "寒冰姐1",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_5bbc216ccf0448a29de716a173e283d1.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 697,
+                    "id": 7552344030223584000
+                },
+                "rank": 75,
+                "live_url": "https://live.douyin.com/05079af"
+            },
+            {
+                "score": 45735,
+                "user": {
+                    "display_id": "1467665523",
+                    "nickname": "密氏兄弟 零食带货12点直播18年食品人",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_oMA04XMw2DTfPgAfbEQQKvJACATAf8AeBh84iE.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 243,
+                    "id": 7552374838166326000
+                },
+                "rank": 76,
+                "live_url": "https://live.douyin.com/1467665523"
+            },
+            {
+                "score": 45143,
+                "user": {
+                    "display_id": "40165806420",
+                    "nickname": "籽汐",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_oEgAvhRjzAAMIppGAzCWBbmIfAAEDIteFApECC.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1672,
+                    "id": 7552312658549050000
+                },
+                "rank": 77,
+                "live_url": "https://live.douyin.com/40165806420"
+            },
+            {
+                "score": 45043,
+                "user": {
+                    "display_id": "taotaoqueen8816",
+                    "nickname": "桃掌柜🍑¹²¹⁸",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_ac5537d17a5bdc2add4df202adb87add.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1264,
+                    "id": 7552363859053022000
+                },
+                "rank": 78,
+                "live_url": "https://live.douyin.com/taotaoqueen8816"
+            },
+            {
+                "score": 44735,
+                "user": {
+                    "display_id": "A.TM333",
+                    "nickname": "佳佳小朋友",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_okirCLJiARKNtNaAEgEIEcvW6AIBA6guSwPvA.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 7609,
+                    "id": 7552359850315976000
+                },
+                "rank": 79,
+                "live_url": "https://live.douyin.com/A.TM333"
+            },
+            {
+                "score": 43182,
+                "user": {
+                    "display_id": "62584880316",
+                    "nickname": "陌小羽¹¹²³",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_0d958ced3ed620ea971e5c6c6da549d9.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 115,
+                    "id": 7552371714596883000
+                },
+                "rank": 80,
+                "live_url": "https://live.douyin.com/62584880316"
+            },
+            {
+                "score": 43147,
+                "user": {
+                    "display_id": "Sanjiangguo",
+                    "nickname": "爆笑三江锅923十周年庆暨水上闯关嘉年华",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_c0ada41b021a9c280ee10cbcf17edaba.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 31295,
+                    "id": 7552356432964865000
+                },
+                "rank": 81,
+                "live_url": "https://live.douyin.com/Sanjiangguo"
+            },
+            {
+                "score": 43001,
+                "user": {
+                    "display_id": "A1314119A",
+                    "nickname": "美羊羊*中11:13",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_oQAIgi5AevREzALP7AZfDs4r9dDBACihCKTAnO.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 4910,
+                    "id": 7552373673810726000
+                },
+                "rank": 82,
+                "live_url": "https://live.douyin.com/A1314119A"
+            },
+            {
+                "score": 42680,
+                "user": {
+                    "display_id": "75644498",
+                    "nickname": "老挝媳妇阿珍",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_96b4157ac89602c99e296f85083cd9b0.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 6316,
+                    "id": 7552346015701962000
+                },
+                "rank": 83,
+                "live_url": "https://live.douyin.com/75644498"
+            },
+            {
+                "score": 42651,
+                "user": {
+                    "display_id": "S6258409987",
+                    "nickname": "阿 坤🚀",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_498f3e8b71f4bd771711f899504c2671.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 127,
+                    "id": 7552356460837654000
+                },
+                "rank": 84,
+                "live_url": "https://live.douyin.com/S6258409987"
+            },
+            {
+                "score": 42385,
+                "user": {
+                    "display_id": "990448977",
+                    "nickname": "小久哥🔥久泰模具",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_a74799e91a5a4cd3970c1c6553bf4f35.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 129,
+                    "id": 7552371227789135000
+                },
+                "rank": 85,
+                "live_url": "https://live.douyin.com/990448977"
+            },
+            {
+                "score": 42139,
+                "user": {
+                    "display_id": "46036707775",
+                    "nickname": "琪琪姐(上午11:30）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_okTXNa1IPQYKiAsiBABwvhMVvAnAkCLAPVAwE.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 1320,
+                    "id": 7552379165262646000
+                },
+                "rank": 86,
+                "live_url": "https://live.douyin.com/46036707775"
+            },
+            {
+                "score": 41118,
+                "user": {
+                    "display_id": "CStarZ",
+                    "nickname": "陈最 ⭐️",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_58a1d7416d211c04af8cefe94f873968.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 362,
+                    "id": 7552372499887967000
+                },
+                "rank": 87,
+                "live_url": "https://live.douyin.com/CStarZ"
+            },
+            {
+                "score": 40175,
+                "user": {
+                    "display_id": "majiangxiaowei",
+                    "nickname": "麻将小微（指尖四川麻将）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d4b4a0093df1eb7c1604f32d4fa2dc00.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 322,
+                    "id": 7552367937279593000
+                },
+                "rank": 88,
+                "live_url": "https://live.douyin.com/majiangxiaowei"
+            },
+            {
+                "score": 40011,
+                "user": {
+                    "display_id": "992672913",
+                    "nickname": "防水大师10:10",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_0b624f208931429baacd10809c5bc870.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 172,
+                    "id": 7552359032007167000
+                },
+                "rank": 89,
+                "live_url": "https://live.douyin.com/992672913"
+            },
+            {
+                "score": 39975,
+                "user": {
+                    "display_id": "78451900780",
+                    "nickname": "白玛旺青",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d028723e0064684787f3f98e5e4ca77f.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 6524,
+                    "id": 7552373525131169000
+                },
+                "rank": 90,
+                "live_url": "https://live.douyin.com/78451900780"
+            },
+            {
+                "score": 39849,
+                "user": {
+                    "display_id": "48967916380",
+                    "nickname": "汐瑶。",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_b8b9408c30d5da9d790b1498e75b22b4.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 90,
+                    "id": 7552375134577905000
+                },
+                "rank": 91,
+                "live_url": "https://live.douyin.com/48967916380"
+            },
+            {
+                "score": 39811,
+                "user": {
+                    "display_id": "75728440",
+                    "nickname": "彭聪聪",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_ef472f15648ad389302134c66f0d7c38.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 640,
+                    "id": 7552355718326685000
+                },
+                "rank": 92,
+                "live_url": "https://live.douyin.com/75728440"
+            },
+            {
+                "score": 38902,
+                "user": {
+                    "display_id": "54028077146",
+                    "nickname": "少妇阿笛¹²²⁷🌻",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_3a4389d7d3d89412e9a4fa5b23f91690.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 158,
+                    "id": 7552348580913532000
+                },
+                "rank": 93,
+                "live_url": "https://live.douyin.com/54028077146"
+            },
+            {
+                "score": 38702,
+                "user": {
+                    "display_id": "84945370223",
+                    "nickname": "土凤（恩师小土妹）",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_13038569fbb5dbf9937274018aedb2a0.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 4819,
+                    "id": 7552356363704339000
+                },
+                "rank": 94,
+                "live_url": "https://live.douyin.com/84945370223"
+            },
+            {
+                "score": 38536,
+                "user": {
+                    "display_id": "1818395670",
+                    "nickname": "小美早上10点30分开播",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_o8A5ZPMAIiwAwIAc8NURADggBARPzTxS80EWi.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 166,
+                    "id": 7552363894493154000
+                },
+                "rank": 95,
+                "live_url": "https://live.douyin.com/1818395670"
+            },
+            {
+                "score": 37777,
+                "user": {
+                    "display_id": "QSAH168",
+                    "nickname": "安徽阿浩（团队招人）",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_81e985c89bcddb0baa031254d5100658.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 384,
+                    "id": 7552365035700424000
+                },
+                "rank": 96,
+                "live_url": "https://live.douyin.com/QSAH168"
+            },
+            {
+                "score": 37623,
+                "user": {
+                    "display_id": "gq112311",
+                    "nickname": "国强¹¹²³砥砺前行",
+                    "avatar_thumb": {
+                        "user_list": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_6bfa0de0e17339f63b9eaf62b6de5ecb.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 765,
+                    "id": 7552379457022709000
+                },
+                "rank": 97,
+                "live_url": "https://live.douyin.com/gq112311"
+            },
+            {
+                "score": 37499,
+                "user": {
+                    "display_id": "anqi0205..",
+                    "nickname": "沐七♏（养分版）",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_oUiRoPgvEw8iRBIAKvSAAAKQAaUIAGBvE128W.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 200,
+                    "id": 7552374142323330000
+                },
+                "rank": 98,
+                "live_url": "https://live.douyin.com/anqi0205.."
+            },
+            {
+                "score": 36862,
+                "user": {
+                    "display_id": "xiaohan96",
+                    "nickname": "祝晓晗｜21号佰草集大白泥双节大促专场",
+                    "avatar_thumb": {
+                        "user_list": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_1b4b400016b5671c665b3.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 50148,
+                    "id": 7552327166801858000
+                },
+                "rank": 99,
+                "live_url": "https://live.douyin.com/xiaohan96"
+            },
+            {
+                "score": 36585,
+                "user": {
+                    "display_id": "KL88886666m",
+                    "nickname": "可乐1v4",
+                    "avatar_thumb": {
+                        "user_list": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_o0APAfbFDEGoFAHAIbEcbeIJzEeQ9cuw0A9JhA.jpeg?from=3067671334"
+                    }
+                },
+                "room": {
+                    "user_count": 336,
+                    "id": 7552371611496730000
+                },
+                "rank": 100,
+                "live_url": "https://live.douyin.com/KL88886666m"
+            }
+        ],
+        "updated_at": 1758426265,
+        "top_image_url": "https://lf1-cdn-tos.bytescm.com/obj/venus/popular-rank-20210810.png"
+    },
+    "extra": {
+        "now": 1758426265119
+    },
+    "status_code": 0
+}

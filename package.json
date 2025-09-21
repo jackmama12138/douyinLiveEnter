@@ -1,0 +1,17 @@
+{
+  "name": "douyin-live-enter",
+  "version": "1.0.0",
+  "description": "检查各平台直播间状态的工具",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
